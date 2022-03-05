@@ -6,8 +6,8 @@ body {
     --cor1: #f8f0f0;
     --cor2: #111010;
     --cor3: #706c6c;
-    --cor4: #922f45;
-    --cor5: #3D181F;
+    --cor4: #583d42;
+    --cor5: #946871;
 }
 main {
     display: flex;
@@ -16,18 +16,6 @@ main {
     height: 900px;
     background-color: var(--cor2);
 }
-.me {
-    width: 30%;
-    height: 900px;
-    background-color: var(--cor4 );
-}
-.me2 {
-    width: 70%;
-    height: 900px;
-    background-color: var(--cor3);
-    display: flex;
-    flex-direction: column;
-}
 nav {
     width: 100%;
     height: 70px;
@@ -35,5 +23,60 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     color: var(--cor1);
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px #11101080;
+}
+.me {
+    width: 30%;
+    height: 900px;
+    background-color: var(--cor3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: inset 5px 3px 10px 0px #00000063;
+}
+.me2 {
+    width: 70%;
+    height: 900px;
+    background-color: var(--cor5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: inset 2px 3px 10px 0px #00000063;
+}
+nav > p {
+    margin: 20px;
+}
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#nome {
+    font-size: 37px;
+    background-color: var(--cor2);
+    color: var(--cor1);
+    padding: 20px;
+    border-radius: 0px 20px;
+    box-shadow: 2px 2px 2px#11101086;
+    font-weight: 300;
+    font-family: 'Average', serif;
+}
+.minhafoto {
+    width: 160px;
+    border-radius: 50%;
+    border: 2px solid var(--cor2);
+    box-shadow: 2px 2px 2px#11101086;
+}
+.basetit {
+    font-family: 'Average', serif;
+    font-size: 30px;
+}
+p, li {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
 }
