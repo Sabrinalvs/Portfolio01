@@ -1,0 +1,32 @@
+@media (max-width:853px) {
+    main {
+        flex-direction: column;
+    }
+    .me {
+        width: 100%;
+    }
+    .me2 {
+        width: 100%;
+    }
+}
+
+@media (max-width:368px) {
+    nav > p {
+        margin: 10px;
+    }
+    .imag {
+        width: 120px;
+    }
+    .toddireito {
+        align-items: center;
+    }
+    .toddireito2 {
+        align-items: center;
+    }
+    .basetitdir {
+        font-size: 25px;
+    }
+    .me2 > p, li {
+        font-size: 15px;
+    }
+}

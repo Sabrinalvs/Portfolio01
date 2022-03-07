@@ -5,15 +5,14 @@ body {
     box-sizing: border-box;
     --cor1: #f8f0f0;
     --cor2: #111010;
-    --cor3: #706c6c;
+    --cor3: #444242;
     --cor4: #583d42;
     --cor5: #946871;
 }
 main {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
-    height: 900px;
+    height: 100%;
     background-color: var(--cor2);
 }
 nav {
@@ -31,7 +30,7 @@ nav {
 }
 .me {
     width: 30%;
-    height: 900px;
+    height: 1000px;
     background-color: var(--cor3);
     display: flex;
     flex-direction: column;
@@ -40,7 +39,7 @@ nav {
 }
 .me2 {
     width: 70%;
-    height: 900px;
+    height: 1000px;
     background-color: var(--cor5);
     display: flex;
     flex-direction: column;
@@ -61,14 +60,14 @@ nav > p {
     align-items: center;
 }
 #nome {
-    font-size: 37px;
+    font-size: 35px;
     background-color: var(--cor2);
     color: var(--cor1);
     padding: 15px;
     border-radius: 0px 20px;
     box-shadow: 2px 2px 2px#11101086;
     font-weight: 300;
-    font-family: 'Average', serif;
+    font-family: 'ABeeZee', sans-serif;
 }
 .minhafoto {
     width: 160px;
@@ -80,6 +79,10 @@ nav > p {
     font-family: 'Average', serif;
     font-size: 30px;
     margin-bottom: -5px;
+    background-color: #817e7e93;
+    padding: 10px;
+    border-radius: 0px 20px;
+    box-shadow: 2px 2px 2px #1110109d;
 }
 .card {
     display: flex;
@@ -103,12 +106,17 @@ nav > p {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
+    background-color: #583d42;
+    box-shadow: 2px 2px 2px #11101067;
+    padding: 20px;
 }
 .toddireito2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background-color: #583d42;
+    padding: 20px;
 }
 .imag {
     width: 170px;
@@ -117,6 +125,7 @@ nav > p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 30px;
 }
 .laddireito2 {
     display: flex;
@@ -133,9 +142,24 @@ nav > p {
 .basetitdir {
     font-family: 'Average', serif;
     font-size: 30px;
-    margin-bottom: 20px;
+    background-color: #111011da;
+    color: #f8f0f0;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 0px 20px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 2px #1110109d;
 }
 p, li {
     font-family: 'Cabin', sans-serif;
     font-size: 20px;
+}
+.corz {
+    color: #111010;
+}
+.corz2 {
+    color: #f8f0f0;
+}
+a:hover {
+    color: #797474;
 }
